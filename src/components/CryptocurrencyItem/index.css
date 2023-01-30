@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+
+.currency-item {
+  color: #ffffff;
+}
+
+.currency-name-img > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.currency-name-img > p {
+  font-size: 20px;
+}
+
+.currency-item {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding: 0px 10px;
+}
+
+.currency-name-img {
+  display: flex;
+  align-items: center;
+}
+
+.currency-value-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency-value-container > p {
+  margin-left: 20px;
+  text-align: end;
+  width: 70px;
+}
